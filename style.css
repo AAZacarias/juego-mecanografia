@@ -1,0 +1,107 @@
+.highlight {
+    background-color: #fffb88;
+}
+
+.error {
+    background-color: lightcoral;
+    border: red;
+}
+
+body {
+    background-color: #215252;
+}
+
+h1 {
+    width: 600px;
+    height: 100px;
+    background-color: #ffcc69;
+    text-align: center;
+    color: #ff656c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 900;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 27%;
+    padding: 0%;
+    border-radius: 1rem;
+    text-shadow: #215252 1px 1px;
+    box-shadow: #1b4444 1px 1px;
+}
+
+#text-area {
+    width: 90%;
+    height: 70vh;
+    padding: 5px;
+    padding-left: 20px;
+    background-color: #0965a8;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 1rem;
+    box-shadow: #1b4444 1px 1px;
+}
+
+#sub {
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+#quote {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+#message {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #ffcc69;
+    border-radius: 1rem;
+}
+input{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#typed-value{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    font-size: x-large;
+    font-weight: bold;
+}
+#start{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 46.5%;
+    margin-right: 45%;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+    background-color: #ffcc69;
+    color: #ff656c;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-shadow: #215252 1px 1px;
+    border-radius: 1rem;
+    box-shadow: #215252 1px 1px;
+}
